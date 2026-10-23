@@ -8,3 +8,4 @@
 .hero-art::before,.hero-art::after{display:none}
 .hero-art img{display:block;width:100%;height:100%;object-fit:cover}
 @media(max-width:760px){.hero-art{width:205px;aspect-ratio:390/406}}
+@media(min-width:761px) and (max-width:900px){.hero{grid-template-columns:minmax(0,1fr) minmax(220px,.8fr);gap:3vw;padding-left:5vw;padding-right:5vw}.hero-art{width:min(100%,290px)}}
